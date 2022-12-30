@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@100;200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    /* justify-content: center; */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+  
+}
+.rectangle{
+    position: absolute;
+    width: 1512px;
+    height: 906px;
+    left: 0px;
+    top: 76px;
+
+background: #f5f4f4;
+}
+.h3{
+    width: 1512px;
+    height: 76px;
+    background: #000000;
+    
+}
+h3{
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 21px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+
+.search{
+    position: absolute;
+    margin-top: 28px;
+    left: 29px;  
+} 
+input{
+    left: 29px;
+    top: 104px;
+    width: 1226px;
+    height: 65px;
+    background: #fffafa;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 24px;
+    line-height: 29px;
+    
+}
+
+button{
+    width: 217px;
+    height: 66px;
+    left: 1268px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.sortOrder{
+    position:absolute;
+    margin-top: 120px;
+    left: 0%;
+   
+    
+} 
+ul{
+    list-style: none;
+    position: absolute;
+    width: 217px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    
+   
+}
+table{
+    border:2px #000000;
+    border-collapse:collapse;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+.emptable{
+    position: absolute;
+    margin: top 0px;
+    width: 1452px;
+    height: 55px;
+    left: 29px;
+    top: 291px;
+    background: #faf5f5;
+    border: 1px solid #000000;
+    font-size: 24px;
+    line-height: 29px;
+
+    
+}
+
+
+
