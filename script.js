@@ -48,7 +48,7 @@ function empdata(data){
         let Item = document.createElement("tr");
         Item.innerHTML =`
         <td>${item.id}</td>
-        <td><img src="${item.img}" height="40" width="40">${item.first_name}${item.last_name}</td>
+        <td><img src="${item.img}" height="40" width="40"> ${item.first_name}  ${item.last_name}</td>
         <td>${item.gender}</td>
         <td>${item.class}</td>
         <td>${item.marks}</td>
